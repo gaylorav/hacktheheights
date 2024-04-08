@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #647D5B; /* Updated background color */
+}
+
+.countdown {
+    text-align: center;
+    font-size: 2em; /* Large font size for larger screens */
+    color: #F9F6F0; /* Updated text color */
+    font-weight: bold; /* Make text bold */
+    padding: 20px; /* Adjusted padding */
+    box-sizing: border-box; /* Ensures padding is included in total width/height */
+    max-width: 100%; /* Ensures content does not overflow screen width */
+}
+
+.bottom, .top {
+    text-align: center;
+    color: #F9F6F0; /* Updated text color */
+    font-weight: bold; /* Make text bold */
+    padding: 20px;
+    margin: 20px auto; /* Centers content with automatic horizontal margins */
+    box-sizing: border-box;
+}
+
+.bottom {
+    font-size: 1em;
+}
+
+.top {
+    font-size: 1.2em;
+}
+
+.countdown span {
+    margin: 0 10px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 800px) {
+    .countdown {
+        font-size: 1.3em; /* Smaller font size for medium screens */
+    }
+
+    .bottom, .top {
+        padding: 10px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .countdown {
+        font-size: 1.2em; /* Further reduced font size for small screens */
+    }
+
+    .bottom {
+        font-size: 1em; /* Adjusted for readability */
+    }
+
+    .top {
+        font-size: 1em; /* Adjusted for readability */
+    }
+}

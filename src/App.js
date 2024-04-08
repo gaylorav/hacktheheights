@@ -1,10 +1,12 @@
 import { Home } from './sections/components'
-import './App.css';
+import { Countdown } from './sections/components'
+import './App.css'; 
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      < Countdown />
+      {/* <Home /> */}
     </div>
   );
 }

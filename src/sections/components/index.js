@@ -6,6 +6,7 @@ import PhotoCarousel from "./PhotoCarousel";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
 import Events from "./Events";
+import Countdown from "./Countdown";
 import Home from './Home';
 
 export {
@@ -17,5 +18,6 @@ export {
     FAQ,
     Events,
     Footer,
-    Home
+    Home, 
+    Countdown
 }
