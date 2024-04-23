@@ -1,5 +1,5 @@
 import React from 'react';
-import "../stylesheets/Affiliations.css"
+import "../stylesheets/Sponsors.css"
 
 import auth0Logo from '../../assets/images/auth0-logo.png';
 import fidelityInvestmentsLogo from '../../assets/images/fidelity-investments-logo.png';
@@ -13,7 +13,7 @@ import mysteriousLogo from '../../assets/images/mysterious-logo.png';
 import schillerLogo from '../../assets/images/schiller-logo.png';
 import starknetLogo from '../../assets/images/starknet-logo.png';
 
-const Affiliations = () => {
+const Sponsors = () => {
   const sponsorList = [
     { name: 'Auth0', logoSrc: auth0Logo },
     { name: 'Fidelity Investments', logoSrc: fidelityInvestmentsLogo },
@@ -30,10 +30,10 @@ const Affiliations = () => {
   ];
 
   return (
-    <div className="section" id="Affiliations">
+    <div className="section" id="Sponsors">
       <div className="sponsors-container">
         <div className="row-sponsor">
-          <h1 id="sponsor-header">AFFILIATIONS</h1>
+          <h1 id="sponsor-header">SPONSORS</h1>
           <div className="container">
             <div id="sponsor-logos">
               {sponsorList.map(sponsor => (
@@ -56,4 +56,4 @@ const Affiliations = () => {
   );
 }
 
-export default Affiliations;
+export default Sponsors;

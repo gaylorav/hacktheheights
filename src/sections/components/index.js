@@ -1,7 +1,7 @@
 import LandingSplash from "./LandingSplash";
 import About from "./About";
 import Team from "./Team";
-import Affiliations from "./Affiliations";
+import Sponsors from "./Sponsors";
 import PhotoCarousel from "./PhotoCarousel";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
@@ -10,10 +10,10 @@ import Countdown from "./Countdown";
 import Home from './Home';
 
 export {
-    LandingSplash,   
+    LandingSplash,
     Team,
     About,
-    Affiliations,
+    Sponsors,
     PhotoCarousel,
     FAQ,
     Events,
